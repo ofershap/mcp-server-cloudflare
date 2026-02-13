@@ -1,0 +1,19 @@
+name: AI Review
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.draft == false
+    steps:
+      - uses: ofershap/ai-pr-reviewer@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
