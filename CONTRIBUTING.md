@@ -5,8 +5,8 @@ Contributions are welcome! Here's how to get started.
 ## Setup
 
 ```bash
-git clone https://github.com/ofershap/{{PACKAGE_NAME}}.git
-cd {{PACKAGE_NAME}}
+git clone https://github.com/ofershap/mcp-server-cloudflare.git
+cd mcp-server-cloudflare
 npm install
 ```
 
