@@ -1,7 +1,7 @@
 name: AI Review
 
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, synchronize]
 
 permissions:
@@ -11,7 +11,7 @@ permissions:
 jobs:
   review:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.draft == false
+    if: github.event.pull_request.head.repo.full_name == github.repository
     steps:
       - uses: ofershap/ai-pr-reviewer@v1
         with:
