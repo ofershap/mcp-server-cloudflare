@@ -6,6 +6,10 @@
 
 > MCP server to manage Cloudflare Workers, KV, R2, DNS, and cache from your IDE. Vercel, Railway, and Netlify all have MCP servers — now Cloudflare does too.
 
+<p align="center">
+  <img src="assets/demo.gif" alt="mcp-server-cloudflare demo" width="600" />
+</p>
+
 ## Tools
 
 | Tool               | What it does                         |
