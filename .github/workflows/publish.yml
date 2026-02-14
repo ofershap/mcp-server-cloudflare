@@ -2,6 +2,8 @@ name: Publish to npm
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 14 14 2 *"
 
 jobs:
   publish:
