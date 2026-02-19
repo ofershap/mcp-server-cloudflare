@@ -1,6 +1,6 @@
 {
   "name": "mcp-server-cloudflare-dns",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server to manage Cloudflare Workers, KV, R2, Pages, DNS, and cache from your IDE",
   "type": "module",
   "bin": {
