@@ -1,11 +1,11 @@
-# mcp-server-cloudflare
+# MCP Server Cloudflare — Workers, KV, R2, DNS & Cache for AI Assistants
 
 [![npm version](https://img.shields.io/npm/v/mcp-server-cloudflare.svg)](https://www.npmjs.com/package/mcp-server-cloudflare)
 [![npm downloads](https://img.shields.io/npm/dm/mcp-server-cloudflare.svg)](https://www.npmjs.com/package/mcp-server-cloudflare)
 [![CI](https://github.com/ofershap/mcp-server-cloudflare/actions/workflows/ci.yml/badge.svg)](https://github.com/ofershap/mcp-server-cloudflare/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Manage Cloudflare Workers, KV, R2, DNS, and cache purging from your AI assistant. Vercel, Railway, and Netlify all have MCP servers — now Cloudflare does too.
+An MCP server that lets your AI assistant manage Cloudflare Workers, KV, R2, DNS, and cache purging. Vercel, Railway, and Netlify all have MCP servers — now Cloudflare does too.
 
 ```
 You: "List my Workers and purge cache for example.com"
@@ -15,7 +15,7 @@ AI:  Found 3 Workers: api-gateway, auth-worker, image-resizer
 
 > Works with Claude Desktop, Cursor, and VS Code Copilot.
 
-![Demo](assets/demo.gif)
+![MCP server Cloudflare demo — listing Workers and purging cache from Claude Desktop](assets/demo.gif)
 
 ## Tools
 
