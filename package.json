@@ -1,6 +1,7 @@
 {
   "name": "mcp-server-cloudflare-dns",
-  "version": "1.0.1",
+  "mcpName": "io.github.ofershap/cloudflare",
+  "version": "1.0.2",
   "description": "MCP server to manage Cloudflare Workers, KV, R2, Pages, DNS, and cache from your IDE",
   "type": "module",
   "bin": {
