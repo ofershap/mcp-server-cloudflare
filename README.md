@@ -17,6 +17,10 @@ AI:  Found 3 Workers: api-gateway, auth-worker, image-resizer
 
 ![MCP server Cloudflare demo — listing Workers and purging cache from Claude Desktop](assets/demo.gif)
 
+<a href="https://glama.ai/mcp/servers/ofershap/mcp-server-cloudflare">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/ofershap/mcp-server-cloudflare/badge" alt="mcp-server-cloudflare MCP server" />
+</a>
+
 ## Tools
 
 | Tool               | What it does                         |
